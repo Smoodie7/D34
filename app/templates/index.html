@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SluttyLeaks</title>
 
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="output.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Sora:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" 
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 
 <body>
     <div class="topbar">
         <a href="#">
-            <img src="../assets/png/sluttyleaks-logo.png" class="object-scale-down" alt="SluttyLeaks Logo" />
+            <img src="{{ url_for('static', filename='assets/png/sluttyleaks-logo.png') }}" class="object-scale-down" alt="SluttyLeaks Logo" />
         </a>
         <nav role="navigation">
             <div id="menuToggle">
