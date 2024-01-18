@@ -1,8 +1,14 @@
 /* Fonts and presets */
+
+
 body {
+    max-width: 375px;
+    overflow-x: hidden;
     background-color: #111111;
     margin: 0;
     padding: 0;
+    min-width: 320px;
+    transform: scaleX(-1); /* flip the screen to get the check box right side */
 }
 .lekton-regular {
     font-family: "Lekton";
@@ -13,22 +19,3 @@ body {
 
 /* Top and navigation bar */
 
-a {
-  text-decoration: none;
-  opacity:1;
-  font-size: 1.5em;
-  font-weight: 400;
-  transition: 200ms;
-}
-a:hover {
-  opacity:0.5;
-}
-ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-.topbar {
-    background-color: #1E1E23;
-    height: 85px;
-}

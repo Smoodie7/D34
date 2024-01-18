@@ -6,6 +6,7 @@
     <title>SluttyLeaks</title>
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/topbar.css') }}">
     <link rel="stylesheet" href="output.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,22 +17,21 @@
 <body>
     <div class="topbar">
         <a href="#">
-            <img src="{{ url_for('static', filename='assets/png/sluttyleaks-logo.png') }}" class="object-scale-down" alt="SluttyLeaks Logo" />
+            <img src="{{ url_for('static', filename='assets/png/sluttyleaks-logo.png') }}" class="main-logo" alt="SluttyLeaks Logo" />
         </a>
-        <nav role="navigation">
-            <div id="menuToggle">
+<!--         <nav role="navigation">-->            <div id="menuToggle">
               <input type="checkbox" />
                 <span></span>
                 <span></span>
                 <span></span>
             <ul id="menu">
-              <li><a href="#" class="lekton-regular">Home</a></li>
-              <li><a href="#" class="lekton-regular">Categories</a></li>
-              <li><a href="#" class="lekton-regular">Just released</a></li>
-              <li><a href="#" class="lekton-regular">OnlyLeaks</a></li>
+              <li><a href="#" class="li-category lekton-regular">Home</a></li>
+              <li><a href="#" class="li-category lekton-regular">Categories</a></li>
+              <li><a href="#" class="li-category lekton-regular">Just released</a></li>
+              <li><a href="#" class="li-category lekton-regular">OnlyLeaks</a></li>
             </ul>
            </div>
-          </nav>
+<!--           </nav> -->
     </div>
 </body>
 </html>
