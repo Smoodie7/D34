@@ -34,7 +34,7 @@ class VideoProcessor:
         self.display_thumbnail()
 
     def display_thumbnail(self):
-        # Display video thumbnail (you can use a library like Pillow for this)
+        # Display video thumbnail (Pillow)
         pass
 
     def process_video(self):
