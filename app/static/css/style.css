@@ -2,13 +2,13 @@
 
 
 body {
-    max-width: 375px;
-    overflow-x: hidden;
     background-color: #111111;
     margin: 0;
     padding: 0;
-    min-width: 320px;
-    transform: scaleX(-1); /* flip the screen to get the check box right side */
+    width: 100%;
+    height: 100vh;
+    max-width: 450px;
+    /* transform: scaleX(-1); */ /* flip the screen to get the check box right side */
 }
 .lekton-regular {
     font-family: "Lekton";
