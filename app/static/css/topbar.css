@@ -56,8 +56,9 @@
 
         #cont > .topbar > .op > .cross > a > svg {
             fill: #ffffffdd;
-            height: 37px;
-            width: 37px;
+            margin-left: -40%;
+            height: 42px;
+            width: 42px;
             display: none; /* cross is hidden */
         }
 
