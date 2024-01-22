@@ -6,7 +6,8 @@ def register_error_handlers(app):
         app.register_error_handler(code, lambda e, code=code: render_error_template(code))
 
 def render_error_template(code):
-    return render_template("errors.html", error_code=f"{code}: {error_messages.get(code, 'Unknown error')}")
+    error_message = error_messages.get(code, 'Unknown error')
+    return render_template("errors.html", error_code=f"{code}: {error_message}", error_message=error_message)
 
 error_messages = {
     404: "Not Found",
