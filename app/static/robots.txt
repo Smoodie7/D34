@@ -1,0 +1,4 @@
+# Search engine crawlers black list pages
+
+User-agent: *
+Disallow: /private-page/
