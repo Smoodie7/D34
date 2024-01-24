@@ -2,7 +2,36 @@
 .trending-category {
     width: 90%; /* Take up the entire available width */
 }
-h1 {
+.lexend-exa-regular {
     margin: 0;
     text-align: left;
+    color: azure;
+    font-size: 35px
 }
+
+.vid-cont {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
+}
+
+.vid-border {
+    float: left;
+    max-width: 100%;
+    position: relative;
+    width: 85%; /* You can adjust this width as needed */
+}
+
+.vid-border iframe {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    top: 0;
+    left: 0;
+}
+
+.vid-tittle {
+    color: #fafafa;
+    margin: 5px 0 0 0;
+}
+

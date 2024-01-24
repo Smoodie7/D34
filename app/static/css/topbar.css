@@ -15,7 +15,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 100%;
             width: 100%;
         }
 
@@ -75,28 +74,5 @@
             box-shadow: 0 0 8px 0 white;
         }
 
-        #cont > .advertise-top {
-            display: flex;
-            align-items: center;
-            height: 40px;
-            max-height: 45px;
-            margin: 20px;
-            padding: 45px 57px;
-            background-color: #d9d9d9e4;
-
-        }
-        
-        #cont > .advertise-top > a {
-            display: flex;
-            align-items: center;
-            color: #000;
-            font-family: 'Anton';
-            font-size: 48px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-        }
-        
-        
 
 
