@@ -1,12 +1,13 @@
-
 .trending-category {
     width: 90%; /* Take up the entire available width */
 }
+
 .lexend-exa-regular {
     margin: 0;
-    text-align: left;
+    display: flex;
+    align-items: flex-start;
     color: azure;
-    font-size: 35px
+    font-size: 35px;
 }
 
 .vid-cont {
@@ -22,19 +23,84 @@
     width: 90%; /* You can adjust this width as needed */
 }
 
-.vid-border iframe {
+.video-frame {
     width: 100%;
     height: 0;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    border-radius: 8px;
+    background-color: #404040;
+}
+
+.small-new-category {
+    position: absolute;
     top: 0;
     left: 0;
-    border-radius: 16px;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+}
 
+.small-new-category-tittle {
+    margin: 0 5px;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(149, 74, 149);
+    background-color: #252525;
+
+}
+
+.small-quality-category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin: 5px;    
+}
+
+.small-quality-category-tittle-4k {
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #252525;
+    color: azure;
+}
+
+.small-time-category {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px;
+}
+
+.small-time-category-tittle {
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #252525;
+    color: azure;
 }
 
 .vid-tittle {
     color: #fafafa;
     margin: 5px 0 0 0;
+
 }
 
 .new-category {
@@ -42,4 +108,3 @@
     margin: 0 20px;
 
 }
-
