@@ -19,7 +19,7 @@
     float: left;
     max-width: 100%;
     position: relative;
-    width: 85%; /* You can adjust this width as needed */
+    width: 90%; /* You can adjust this width as needed */
 }
 
 .vid-border iframe {
@@ -28,10 +28,18 @@
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     top: 0;
     left: 0;
+    border-radius: 16px;
+
 }
 
 .vid-tittle {
     color: #fafafa;
     margin: 5px 0 0 0;
+}
+
+.new-category {
+    width: 90%;
+    margin: 20px;
+
 }
 
