@@ -13,11 +13,8 @@
     display: flex;
     align-items: center;
     color: #000;
-    font-family: 'Anton';
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 38px;
 }
 
 
@@ -36,9 +33,5 @@
     display: flex;
     align-items: center;
     color: #000;
-    font-family: 'Anton';
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+    font-family: 'Unbounded', sans-serif;
 }

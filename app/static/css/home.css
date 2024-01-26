@@ -3,8 +3,7 @@
 }
 
 .lexend-exa-regular {
-    margin: 0;
-    display: flex;
+    margin: 0 0 -10px 0;
     align-items: flex-start;
     color: azure;
     font-size: 35px;
@@ -13,8 +12,9 @@
 .vid-cont {
     display: flex;
     justify-content: center;
-    margin: 40px 0 0 0;
+    margin: 40px 0 5px 0;
 }
+
 
 .vid-border {
     max-width: 100%;
@@ -131,7 +131,7 @@
 .under-tittle-details {
     display: flex;
     justify-content: space-between;
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(255, 255, 255, 0.70);
     font-family: Inter;
     font-size: 15px;
     font-style: normal;
