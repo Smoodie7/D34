@@ -49,22 +49,24 @@
 .small-new-category-tittle {
     margin: 0 5px;
     padding: 3px 5px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
     border-radius: 3px;
     color: #C4B5FD;
-    background-color: #1a1a1a;
+    background-color: #252525;
 
 }
 
 .small-premium-category-tittle {
     margin: 0 5px;
     padding: 3px 5px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
     border-radius: 3px;
-    color: #b4a2ff;
-    background-color: #1a1a1a;
+    color: #C4B5FD;
+    background-color: #252525;
 }
 
 .small-quality-category {
@@ -82,21 +84,23 @@
 .small-quality-category-tittle-4k {
     margin: 0 5px;
     padding: 3px 5px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
     border-radius: 3px;
     color: #C4B5FD;
-    background-color: #1a1a1a;
+    background-color: #252525;
 }
 
 .small-quality-category-tittle-hd {
     margin: 0 5px;
     padding: 3px 5px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
     border-radius: 3px;
     color: azure;
-    background-color: #1a1a1a;
+    background-color: #252525;
 }
 
 .small-time-category {
@@ -115,11 +119,12 @@
 .small-time-category-tittle {
     margin: 0 5px;
     padding: 3px 5px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
     border-radius: 3px;
     color: azure;
-    background-color: #1a1a1a;
+    background-color: #252525;
 }
 
 .vid-tittle {
