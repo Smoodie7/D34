@@ -20,7 +20,16 @@ def home():
     website_name = get_website_info(requested_website_name)
     logo_path = f"assets/png/logo/{requested_website_name.lower()}-logo.png"
 
-    return render_template("index.html", website_name=website_name, logo_path=logo_path)
+    video_data = {
+        'new_category_title': 'NEW',
+        'quality_category_title': 'HD',
+        'time_category_title': '12:34',
+        'video_title': 'Video title Video',
+        'times_ago': '6 hours ago',
+        'views_amount': '12,000 views'
+    }
+
+    return render_template("index.html", website_name=website_name, logo_path=logo_path, **video_data)
 
 # Others
 @bp.route('/robots.txt')
