@@ -61,13 +61,13 @@
         #cont > .menu {
             display: none;
             flex-direction: column;
-            border-radius: 4px;
+            /* align-items: flex-start; */
             padding: 25px;
-            gap: 55px;
+            gap: 45px;
             width: calc(100% - 50px);
             height: calc(100% - 120px);
             background-color: #252525;
-            box-shadow: 0 0 6px 0 white
+            box-shadow: 0 0 2px 2px white;
         }
         
         #cont > .menu > a {
@@ -77,6 +77,6 @@
             color: azure;
             background-color: #252525;
             border-radius: 5px;
-            box-shadow: 0 0 9px 3px #C4B5FD;
+            box-shadow: 0 0 6px 2px #C4B5FD;
             font-size: 32px;
         }
