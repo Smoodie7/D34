@@ -27,3 +27,8 @@ def home():
 def static_from_root():
     return send_from_directory(bp.static_folder, 'robots.txt')
 
+
+@bp.route('/onlyleaks.html')
+def onlyleaks():
+    return render_template('onlyleaks.html')
+
