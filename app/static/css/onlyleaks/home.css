@@ -1,5 +1,6 @@
 .onlyleaks-category {
-    width: 90%; /* Take up the entire available width */
+    width: 90%;
+    margin: 0 20px;
     color: #C4B5FD;
 }
 
