@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SluttyLeaks</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='assets/png/logo/icon.png') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/topbar.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/fonts.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Sora:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/noto-sans-mono" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/unbounded" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="cont">
+        <header class="topbar">
+            <a href="/" class="main-logo"><img src="/static/assets/png/logo/sluttyleaks-logo.png" alt="SluttyLeaks Logo" ></a>
+            <div class="op">
+                <div class="cross">
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 384 512"><path
+                                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg></a>
+                </div>
+                <div class="category">
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 512 512"><path
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></a>
+                </div>
+                <div class="search">
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg></a>
+                </div>
+            </div>
+        </header>
+        <div class="menu">
+            <a href="onlyleaks.html" class=" lekton-regular">OnlyLeaks</a>
+            <a href="#" class=" lekton-regular">School Project</a>
+            <a href="#" class=" lekton-regular">Exclusive</a>
+            <a href="/" class=" lekton-regular">Home</a>
+        </div>
+        <div class="big-advertise-top">
+            <a href="#">ADVERTISE</a>
+        </div>
+
+        <video id="my-player" class="video-js" controlspreload="auto" width="auto" height="auto" 
+        poster="./../videos/{{ principal_category }}/{{ release_date }}/{{ special_id }}/thumbnail.png" 
+        data-setup='{"controls": true, "autoplay": false, "preload": "auto"}'>
+        <source src="../../videos/{{ principal_category }}/{{ release_date }}/{{ special_id }}/video.webm" type="video/webm" />
+        <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
+
+  </div>
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+    
+</body>
+</html>

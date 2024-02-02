@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, send_from_directory, request, jsonify, abort
 from app.video_manager import parse_video_id
+import os, subprocess
 
 bp = Blueprint("main", __name__, static_folder='app')
 
@@ -46,9 +47,11 @@ def video_link_handler():
         # Parse the video ID
         video_principal_category, video_release_date, video_special_id = parse_video_id(video_id)
         print(video_principal_category, video_release_date, video_special_id)
+        if not os.path.exists(f"videos/{video_principal_category}/{video_release_date}/{video_special_id}/video.webm"):
+            abort(404)
 
-        response_text = f"Principal Category: {video_principal_category}, Release Date: {video_release_date}, Special ID: {video_special_id}"
-        return jsonify({'video_info': response_text})
+        print(f"Principal Category: {video_principal_category}, Release Date: {video_release_date}, Special ID: {video_special_id}")
+        return render_template('watch.html', principal_category=video_principal_category, release_date=video_release_date, special_id=video_special_id)
     except ValueError as e:
         print("Error:", e)
         abort(404)
