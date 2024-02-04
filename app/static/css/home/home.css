@@ -1,4 +1,10 @@
-.trending-category {
+.onlyleaks-category {
+    width: 90%;
+    margin: 0 20px;
+    color: #C4B5FD;
+}
+
+.trending-category{
     width: 90%;
     margin: 0 20px;
 }
@@ -6,11 +12,17 @@
 .lexend-exa-regular {
     margin: 0 0 -10px 0;
     align-items: flex-start;
-    color: azure;
+    color: #C4B5FD;
     font-size: 35px;
 }
 
 .vid-cont {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 5px 0;
+}
+
+.pic-cont {
     display: flex;
     justify-content: center;
     margin: 40px 0 5px 0;
@@ -28,6 +40,13 @@
     height: 0;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     border-radius: 8px;
+    background-color: #404040;
+}
+
+.picture-frame {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
     background-color: #404040;
 }
 
